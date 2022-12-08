@@ -28,6 +28,7 @@ template<class Type>
 inline Queue<Type>::Queue(const Queue<Type>& obj)
 	:list(obj.list)
 {
+	this->currentSize = obj.currentSize;
 }
 
 template<class Type>
